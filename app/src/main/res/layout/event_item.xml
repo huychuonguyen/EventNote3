@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lnActivityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Name"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvActivityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="activity name"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="location"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvEventDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="date"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnAttendingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time of attending"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvAttendingTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="mm/dd/yyy"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnReporterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of the reporter"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvReporterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="reporter name"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnUpdateEventUpdateEventFragment"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#00BCD4"
+            android:drawableTint="#00BCD4"
+            android:paddingStart="5dp"
+            android:drawableStart="@drawable/ic_edit"
+            android:background="@drawable/shape_border_blue"/>
+
+        <Button
+            android:id="@+id/btnDeleteEvent"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingStart="5dp"
+            android:text="Remove"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/ic_remove"
+            android:drawableTint="#D53958"
+            android:textColor="#D53958"
+            android:textAllCaps="false"
+            android:background="@drawable/shape_border_red"/>
+    </LinearLayout>
+
+</LinearLayout>
